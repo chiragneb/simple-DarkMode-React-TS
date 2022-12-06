@@ -1,23 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
+import bear from './bear.svg';
 import './App.css';
+import DarkMode from './DarkMode';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <DarkMode />
+        <img src={bear} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Toggling light and dark mode on bear SVG
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
